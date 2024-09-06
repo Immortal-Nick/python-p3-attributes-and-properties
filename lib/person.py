@@ -16,8 +16,8 @@ APPROVED_JOBS = [
 ]
 
 class Person:
-    def __init__(self, name: str = "", job: str = ""):
-        # Initialize properties using setters to ensure validation
+    def __init__(self, name: str = "Nick", job: str = "Purchasing"):
+
         self._name = None
         self._job = None
         self.name = name

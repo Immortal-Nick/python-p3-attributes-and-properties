@@ -10,12 +10,12 @@ APPROVED_BREEDS = [
 ]
 
 class Dog:
-    def __init__(self, name="", breed=None):
+    def __init__(self, name="fido", breed="Pug"):
         self._name = None
         self._breed = None
-        self.name = name  # Set the name here
+        self.name = name 
         if breed is not None:
-            self.breed = breed  # Set the breed here
+            self.breed = breed
 
     @property
     def name(self):
